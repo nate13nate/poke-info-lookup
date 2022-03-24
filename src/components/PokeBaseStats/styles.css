@@ -1,0 +1,35 @@
+table.stattable {
+  width: 100%;
+  height: 100%;
+}
+
+th.statheader {
+  text-align: left;
+}
+
+tr.statrow {
+  width: 100%;
+  height: 15%;
+  background-color: #91e0a5;
+}
+
+tr.statrow:nth-child(even) {
+  background-color: var(--primary-green);
+}
+
+td.statvalue {
+  transition: opacity 1s ease-in-out;
+}
+
+td.bartabledata {
+  width: 50%;
+  padding: 5px 2px;
+}
+
+div.statbar {
+  background-color: var(--slightly-darker-than-main-font-green);
+  height: 100%;
+  transition: width 1s ease-in-out;
+  display: flex;
+  align-items: center;
+}

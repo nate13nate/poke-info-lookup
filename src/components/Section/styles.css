@@ -1,0 +1,12 @@
+div.section {
+  padding: 5%;
+
+  border: 5px solid var(--section-border-green);
+  border-radius: 3px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--section-background-green);
+}

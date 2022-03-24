@@ -1,0 +1,15 @@
+table.learnsettable {
+  transition: opacity 1s ease-in-out;
+}
+
+.learnsetdata {
+  text-align: center;
+}
+
+tr.learnsetrow {
+  background-color: #91e0a5;
+}
+
+tr.learnsetrow:nth-child(even) {
+  background-color: var(--primary-green);
+}

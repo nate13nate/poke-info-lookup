@@ -1,0 +1,4 @@
+.pokeimgsizing {
+  width: 110%;
+  transition: transform 2s;
+}
